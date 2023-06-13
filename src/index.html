@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-            />
-        <title>RED Template WebPack 5</title>
-    </head>
-    <body>
-        <header class="d-flex justify-content-between">
-
-            <div class="logo">LOGO</div>
-            <ul class="d-flex">
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-            </ul>
-        </header>
-
-        <main>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6">
-                        <form action="" class="d-flex flex-column">
-                            <label class="mt-2" for="surname">Прізвище</label>
-                            <input id="surname" name="surname" type="text"
-                                placeholder="Прізвище">
-
-                            <label class="mt-2" for="name">Імʼя</label>
-                            <input id="name" name="name" type="text"
-                                placeholder="Імʼя">
-
-                            <label class="mt-2" for="patronymic">По-батькові</label>
-                            <input id="patronymic" name="patronymic" type="text"
-                                placeholder="По-батькові">
-
-                            <button id="btn" class="btn btn-danger mt-4"
-                                type="submit">+</button>
-                        </form>
-                    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>RED Template WebPack 5</title>
+  </head>
+  <body>
+    <main class="reciep__single">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h1 class="single__title">Пиріг з ревенем і полуницею</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="single__hero">
+              <img
+                class="single__hero_img"
+                src="./assets/img//pyrih-z-revenem 1.png"
+                alt=""
+              />
+              <div
+                class="d-flex flex-md-row flex-column justify-content-between single__hero_description"
+              >
+                <div
+                  class="d-flex flex-md-row align-items-md-center single__hero_description_lvl"
+                >
+                  <div class="d-block">Складність:</div>
+                  <div class="single__hero_description_lvl_stars">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                  </div>
                 </div>
-            </div>
-            <div class="conatiner mt-5">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                        <div class="output-info">
-                            TEMPLATE: Lialiuk I. R.
-                        </div>
+                <div class="d-flex flex-wrap">
+                  <div class="m-2 d-flex single__hero_description_time">
+                    <img
+                      class="single__hero_description_time_img"
+                      src="./assets/img/Vector (4).svg"
+                      alt=""
+                    />
+                    <div
+                      class="d-flex flex-column single__hero_description_time_text"
+                    >
+                      <span class="">Підготовка</span>
+                      <span class="minutes_smaller">10 хв</span>
                     </div>
+                  </div>
+                  <div class="m-2 d-flex single__hero_description_time">
+                    <img
+                      class="single__hero_description_time_img"
+                      src="./assets/img/Vector (4).svg"
+                      alt=""
+                    />
+                    <div
+                      class="d-flex flex-column single__hero_description_time_text"
+                    >
+                      <span class="">Підготовка</span>
+                      <span class="minutes_smaller">10 хв</span>
+                    </div>
+                  </div>
+                  <div class="m-2 d-flex single__hero_description_time">
+                    <img
+                      class="single__hero_description_time_img"
+                      src="./assets/img/Vector (4).svg"
+                      alt=""
+                    />
+                    <div
+                      class="d-flex flex-column single__hero_description_time_text"
+                    >
+                      <span class="">Підготовка</span>
+                      <span class="minutes_smaller">10 хв</span>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- Slider main container -->
-            <div class="test_slider">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 1</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 1</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 2</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 3</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="single__recipe_body">
+              <article>
+                Страви з качки мають безліч національних відтінків. Ми залюбки
+                розповімо вам найпопулярніші та найрідкісніші смачні рецепти з
+                качки, і ви теж знатимете, як приготувати качку смачно.
+                Приготування качки часто припадає з нагоди якогось свята. З
+                іншого боку, коли у вашому домі з’являється качка смажена, качка
+                запечена або качка фарширована — це вже саме по собі свято.
+              </article>
+              <h3 class="single__recipe_body_title">
+                Запечена качка у духовці
+              </h3>
+              <p>
+                Качка традиційно наповнюється яблуками, горіхами та родзинками,
+                а потім запікається в духовці. Вона виходить особливо ніжною та
+                соковитою, якщо готувати її в рукаві. Також, чудово готується
+                качка в аерогрилі.
+              </p>
+              <h3 class="single__recipe_body_title">
+                Маринади для приготування качки
+              </h3>
+              <p>
+                Спробуйте приготувати запечену качку з різноманітними
+                маринадами, які надають їй неймовірно вишуканого смаку:
+                гірчично-лимонний, гірчично-медовий із часником, медово-соєвий,
+                лимонно-імбирний, виноградно-соєвий з томатною пастою.
+              </p>
+              <h3 class="single__recipe_body_title">
+                Тушкована качка
+              </h3>
+              <p>Найзручніше тушкувати качку в спеціальному посуді. Гусятницю змащують олією, в неї поміщають підготовлену качку та заливають двома склянками води або білого сухого вина.</p>
+              <h3 class="single__recipe_body_title">
+                Качка фарширована
+              </h3>
+              <p>Є різна качка фарширована – з рисом, гречкою, качка з чорносливом. Під час приготування качки з яблуками, гарбузом, цибулею і сметаною утворюється досить густий ароматний соус, яким можна приправити будь-який гарнір.
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                При цьому шматочки яблук і гарбуза залишаються цілими у готовій страві та можуть самі бути гарніром до тушкованої качки. Поживне та смачне доповненням не тільки до домашнього, а й святкового столу.</p>
             </div>
-        </main>
-
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
 </html>
