@@ -20,19 +20,53 @@
     &__recipe {
 
         &_body {
-            padding: 0 20px 0 20px;
+            padding: 20px 20px 0 20px;
             line-height: 25px;
             font-size: 25px;
+
+            &_list {
+
+                list-style-image: url("./assets/icons/listIcons/empty-checkbox.svg");
+
+                & li {
+
+                    margin-bottom: 10px;
+
+                    &:first-child {
+                        list-style-image: url("./assets/icons/listIcons/checkbox.svg");
+
+                    }
+                }
+
+            }
+
+            &_ordered {
+                list-style: none;
+                counter-reset: li;
+
+                & li {
+                    counter-increment: li;
+                }
+
+                & li::before {
+                    content: counters(li, ".");
+                    color: #038d00;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em
+                }
+            }
         }
+
+
     }
-    
     & .clock {
         max-width: 37px;
         max-height: 37px;
     }
 
     &__hero {
-        background-color: #EBEBEB;
+        background-color: #e0e0e0;
         border-radius: 30px;
 
         &_img {
