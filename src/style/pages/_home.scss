@@ -75,6 +75,11 @@
     transition: 0.3s ease-in-out;
     scale: 103%;
   }
+  &_lvl_stars {
+    img {
+      border-radius: 0px !important;
+    }
+  }
 
   &_head {
     padding: 5px;
