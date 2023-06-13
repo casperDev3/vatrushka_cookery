@@ -1,5 +1,6 @@
 // Watchers for scss and html files
 import "./index.scss";
+import "./style/pages/_recipies.scss";
 import "./scripts/watchers/_pages"
 // Import modules
 
