@@ -1,124 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>RED Template WebPack 5</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between align-items-center">
+            <img
+              class="header__logo"
+              src="./assets/img/logoHeder.png"
+              alt="MASTER KITCHEN"
             />
-        <title>RED Template WebPack 5</title>
-    </head>
-    <body>
-        <header class="d-flex justify-content-between">
-
-            <div class="logo">LOGO</div>
-            <ul class="d-flex">
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 1</a></li>
-            </ul>
-        </header>
-
-        <main>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6">
-                        <form action="" class="d-flex flex-column">
-                            <label class="mt-2" for="surname">Прізвище</label>
-                            <input id="surname" name="surname" type="text"
-                                placeholder="Прізвище">
-
-                            <label class="mt-2" for="name">Імʼя</label>
-                            <input id="name" name="name" type="text"
-                                placeholder="Імʼя">
-
-                            <label class="mt-2" for="patronymic">По-батькові</label>
-                            <input id="patronymic" name="patronymic" type="text"
-                                placeholder="По-батькові">
-
-                            <button id="btn" class="btn btn-danger mt-4"
-                                type="submit">+</button>
-                        </form>
-                    </div>
-                </div>
+            <nav class="nav d-flex align-items-center justify-content-between">
+              <input type="checkbox" id="nav-check" />
+              <div class="nav-btn">
+                <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+              <ul class="nav-list d-flex align-items-center">
+                <li><a href="./pages/about.html">Головна</a></li>
+                <li>
+                  <select name="recipes" id="recipes">
+                    <option value="all" selected>
+                      <a href="">Всі рецепти</a>
+                    </option>
+                    <option value="soup"><a href="">Перші Страви</a></option>
+                    <option value="main"><a href="">Другі Страва</a></option>
+                    <option value="salad"><a href="">Салати</a></option>
+                    <option value="Lenten"><a href="">Пісні страви</a></option>
+                    <option value="dessert"><a href="">Десерти</a></option>
+                  </select>
+                </li>
+                <li><a href="">Блог</a></li>
+                <li><a href="">Контакти</a></li>
+                <li>
+                  <div class="header__search">
+                    <img src="./assets/icons/searchIcon.png" alt="search" />
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center d-flex flex-column align-items-center">
+                <h1 class="hero__title">Прості рецепти смачних страв</h1>
+                <div class="hero__line mt-3"></div>
+                <article class="mt-3">Рецепти перших і других страв, а також десертів та салатів. Тисячі ідей, що приготувати на сніданок чи вечерю. Читайте, готуйте,
+                    насолоджуйтесь. І не забувайте ділитися своїми рецептами.</article>
             </div>
-            <div class="conatiner mt-5">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                        <div class="output-info">
-                            TEMPLATE: Lialiuk I. R.
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div
+            class="col-12 col-md-4 d-flex flex-column align-items-md-end gap-5"
+          >
+            <img
+              class="footer__logo"
+              src="./assets/img/logoFooter.png"
+              alt=""
+            />
+            <div class="social d-flex gap-4">
+              <a href="/"
+                ><img src="./assets/icons/facebook.png" alt="facebook"
+              /></a>
+              <a href="/"
+                ><img src="./assets/icons/instagram.png" alt="instagrem"
+              /></a>
+              <a href="/"
+                ><img src="./assets/icons/telegram.png" alt="telegram"
+              /></a>
+              <a href="/"
+                ><img src="./assets/icons/youtube.png" alt="youtube"
+              /></a>
             </div>
-            <!-- Slider main container -->
-            <div class="test_slider">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 1</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 1</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 2</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <h2>test 3</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Eum, deleniti voluptatem?
-                                Quaerat debitis, sed molestiae doloribus, nemo
-                                velit quis autem quod maiores, beatae tempora!
-                                Accusamus corrupti culpa eum obcaecati
-                                excepturi!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex justify-content-md-center justify-content-start mt-3"
+          >
+            <nav>
+              <ul class="footer__nav">
+                <li><a href="/">Перші Страви</a></li>
+                <li><a href="/">Другі Страва</a></li>
+                <li><a href="/">Салати</a></li>
+                <li><a href="/">Пісні страви</a></li>
+                <li><a href="/">Десерти</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-12 col-md-4 mt-3">
+            <div class="footer__contacts flex-column justify-content-between">
+              <div>
+                <h6>Контакти</h6>
+                <p>+38 (099) 25 -01-245</p>
+              </div>
+              <div>
+                <h6>Ел. скринька</h6>
+                <p>master_kitchen@gmail.com</p>
+              </div>
+              <div>
+                <h6>Адреса</h6>
+                <p>м. Суми, вул. Харківська, 57</p>
+              </div>
             </div>
-        </main>
-
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    </body>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <p class="text-center footer__text">
+              All rights are reserved <span>© Master Kitchen 2023</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
 </html>
