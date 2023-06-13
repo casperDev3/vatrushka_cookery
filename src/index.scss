@@ -1,0 +1,17 @@
+// Import libraries css
+@import url('./style/libs/bootstrap.min.css');
+// @import './style/libs/font-awesome.min.css';
+// Global styles for the app
+@import 'style/global/fonts';
+@import 'style/global/variables';
+@import 'style/global/mixins';
+
+// Local styles for pages and components
+@import './style/pages/about';
+@import './style/components/header';
+
+.output-info{
+    font-size: 1.5rem;
+    color: #f00;
+    margin: 10px;
+}
