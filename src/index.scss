@@ -11,10 +11,40 @@
 @import './style/components/header';
 @import './style/pages/recipies';
 
+.hero__title {
+    color: #038D00;
 
-.output-info{
+}
+
+.recipies__card {
+    padding: 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.88);
+    border-radius: 20px;
+    max-width: 250px;
+
+    &_head {
+        padding: 10px;
+
+        &_title {
+            text-align: center;
+            padding: 5px;
+        }
+
+        &_lvl {
+            font-weight: 500;
+        }
+    }
+
+
+    img {
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+
+.output-info {
     font-size: 1.5rem;
     color: #f00;
     margin: 10px;
 }
-
