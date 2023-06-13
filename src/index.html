@@ -32,7 +32,7 @@
               <ul class="nav-list d-flex align-items-center">
                 <li><a href="./pages/about.html">Головна</a></li>
                 <li>
-                  <select name="recipes" id="recipes">
+                  <select name="recipes" id="recipes" class="custom-select">
                     <option value="all" selected>
                       <a href="">Всі рецепти</a>
                     </option>
@@ -60,11 +60,343 @@
       <section class="hero">
         <div class="container">
           <div class="row">
-            <div class="col-12 text-center d-flex flex-column align-items-center">
-                <h1 class="hero__title">Прості рецепти смачних страв</h1>
-                <div class="hero__line mt-3"></div>
-                <article class="mt-3">Рецепти перших і других страв, а також десертів та салатів. Тисячі ідей, що приготувати на сніданок чи вечерю. Читайте, готуйте,
-                    насолоджуйтесь. І не забувайте ділитися своїми рецептами.</article>
+            <div
+              class="col-12 text-center d-flex flex-column align-items-center"
+            >
+              <h1 class="hero__title">Прості рецепти смачних страв</h1>
+              <div class="hero__line mt-3"></div>
+              <article class="mt-3">
+                Рецепти перших і других страв, а також десертів та салатів.
+                Тисячі ідей, що приготувати на сніданок чи вечерю. Читайте,
+                готуйте, насолоджуйтесь. І не забувайте ділитися своїми
+                рецептами.
+              </article>
+            </div>
+            <div class="row">
+              <div class="col-12 d-flex mt-5">
+                <div
+                  class="dishes d-flex flex-wrap align-items-center justify-content-xl-between justify-content-center gap-3"
+                >
+                  <div
+                    class="dish d-flex flex-column align-items-center text-center gap-2"
+                  >
+                    <img src="./assets/img/borshch.png" alt="soup" />
+                    <h3 class="dish__title">Перші страви</h3>
+                    <div class="dish__line"></div>
+                    <p class="dish__desc">
+                      Смачні та корисні перші страви у нашому каталозі! Читайте,
+                      готуйте, насолоджуйтесь!
+                    </p>
+                    <a href="./pages/soup.html" class="dish__btn">
+                      Дивитись рецепти
+                    </a>
+                  </div>
+                  <div
+                    class="dish d-flex flex-column align-items-center text-center gap-2"
+                  >
+                    <img src="./assets/img/holubtsi.png" alt="soup" />
+                    <h3 class="dish__title">Другі страви</h3>
+                    <div class="dish__line"></div>
+                    <p class="dish__desc">
+                      Рецепти других страв у нашому каталозі. Другі страви з
+                      різних кухонь світу.
+                    </p>
+                    <a href="./pages/soup.html" class="dish__btn">
+                      Дивитись рецепти
+                    </a>
+                  </div>
+                  <div
+                    class="dish d-flex flex-column align-items-center text-center gap-2"
+                  >
+                    <img src="./assets/img/syrnyky.png" alt="soup" />
+                    <h3 class="dish__title">Десерти</h3>
+                    <div class="dish__line"></div>
+                    <p class="dish__desc">
+                      Смачні десерти та торти, які стануть окрасою столу та
+                      насолодою на завершення обіду.
+                    </p>
+                    <a href="./pages/soup.html" class="dish__btn">
+                      Дивитись рецепти
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recipe">
+        <div class="container">
+          <div class="row mt-3 mb-3">
+            <div class="col-12 d-flex justify-content-start">
+              <h1 class="recipe__title">Кулінарні рецепти на кожен день</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-md-between justify-content-center ">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                  <div class="recipes__card_head">
+                      <div class="recipes__card_head_title">
+                          Пиріг з ревенем і полуницею
+                      </div>
+                      <div class="d-flex justify-content-between recipes__card_head_lvl">
+                          <span>Складність:</span>
+                          <div class="recipes__card_lvl_stars d-inline">
+                              <span>1</span>
+                              <span>2</span>
+                              <span>3</span>
+                              <span>4</span>
+                              <span>5</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="recipes__card_content">
+                      <img src="./assets/img/pie.png" alt="">
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+                <div class="recipes__card_head">
+                    <div class="recipes__card_head_title">
+                        Пиріг з ревенем і полуницею
+                    </div>
+                    <div class="d-flex justify-content-between recipes__card_head_lvl">
+                        <span>Складність:</span>
+                        <div class="recipes__card_lvl_stars d-inline">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card_content">
+                    <img src="./assets/img/pie.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+              <div class="recipes__card_head">
+                  <div class="recipes__card_head_title">
+                      Пиріг з ревенем і полуницею
+                  </div>
+                  <div class="d-flex justify-content-between recipes__card_head_lvl">
+                      <span>Складність:</span>
+                      <div class="recipes__card_lvl_stars d-inline">
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="recipes__card_content">
+                  <img src="./assets/img/pie.png" alt="">
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12  m-4 d-flex flex-column  recipes__card">
+            <div class="recipes__card_head">
+                <div class="recipes__card_head_title">
+                    Пиріг з ревенем і полуницею
+                </div>
+                <div class="d-flex justify-content-between recipes__card_head_lvl">
+                    <span>Складність:</span>
+                    <div class="recipes__card_lvl_stars d-inline">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                    </div>
+                </div>
+            </div>
+            <div class="recipes__card_content">
+                <img src="./assets/img/pie.png" alt="">
+            </div>
+        </div>
+          </div>
+      </section>
+      <section class="blog mt-4 mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="recipe__title">Кулінарний блог: готуємо смачно</h1>
+              <article class="blog__article">Цікаві ідеї сніданків та обідів, підбірка кращих рецептів за категоріями та цікаві кулінарні блоги.</article>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="blog__cards justify-content-lg-between justify-content-center ">
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+                <div class="blog__card d-flex flex-column text-end">
+                  <img class="blog__card_img" src="./assets/img/zapechena-kurka.png" alt="zapechena-kurka">
+                  <div class="blog__card_content">
+                    <h3 class="blog__card_title">Як приготувати качку</h3>
+                  <p class="blog__card_desc">Страви з качки мають безліч національних відтінків. Ми залюбки розповімо вам найсмачніші…</p>
+                  <a href="/" class="blog__card_btn">Читати далі »</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about mt-5 mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-lg-start gap-3 flex-wrap">
+              <img class="about__img" src="./assets/img/logoAbout.png" alt="Master kitchen">
+              <h1 class="recipe__title">— сайт рецептів українською</h1>
+            </div>
+          </div>
+          <div class="row mt-4 mb-4">
+            <div class="col-12">
+              <p>Ще декілька років тому наші мами й бабусі ділилися переписаними від руки смачними рецептами. Вони передавали одна одній товстелезні зошити з нотатками, щоб випадково не загубився старовинний простий рецепт тушкованої капусти з квасолею, салату з тунцем і рисом на кшталт «мімози» чи хрумкого «наполеона».</p>
+              <p>Сьогодні в тренді інші прості рецепти, новітні страви – салати з ананасами й ківі, сирники з бананом, кус-кус з овочами. Та й навіть нарізку і підготовку продуктів роблять вже інакше. Доводиться винаходити все нові прості рецепти, адже хочеться, щоб було і смачно, і сучасно, і не  просто так.</p>
+              <h3 class="recipe__title mt-4 mb-4">Що приготувати на сніданок, обід чи вечерю?</h3>
+              <p>Якщо ви любите готувати, мабуть, у вашої родини є улюблена страва, яка подобається без винятку всім. Поділіться з нами вашим файним
+                рецептом, щоб наші читачі змогли його приготувати й прикрасити ним свій стіл. Неважливо, що це – зовсім легкий салат з крабових паличок,
+                незвичайний бограч або хитромудрий банош.</p>
             </div>
           </div>
         </div>
@@ -113,11 +445,13 @@
             <div class="footer__contacts flex-column justify-content-between">
               <div>
                 <h6>Контакти</h6>
-                <p>+38 (099) 25 -01-245</p>
+                <p><a href="tel:+38 (099) 25 -01-245">+38 (099) 25 -01-245</a></p>
+                
               </div>
               <div>
                 <h6>Ел. скринька</h6>
-                <p>master_kitchen@gmail.com</p>
+                <p><a  href="mailto:master_kitchen@gmail.com">master_kitchen@gmail.com</a></p>
+                
               </div>
               <div>
                 <h6>Адреса</h6>
